@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 author = "Steve Francia"
-baseURL = "https://gohugo.io/"
+baseURL = "/"
 copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
