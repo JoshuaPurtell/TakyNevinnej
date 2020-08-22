@@ -14,10 +14,9 @@ name = "About"
 url = "/about/"
 weight = 10
 [params]
-description = "Just a demo site for the Casper3 theme ported to Hugo"
-facebook = "https://facebook.com"
-github = "https://github.com/jonathanjanssens"
-logo = "/images/ghost-transparent.png"
+description = "Processing Stochasticities"
+github = "https://github.com/joshuapurtell"
+logo = "/images/test_logo.png"
 mainSections = ["post"]
 twitter = "https://twitter.com"
 [privacy.instagram]
