@@ -1,19 +1,17 @@
 +++
 author = "Anonymous"
-title = "Can Topology Help Inform Autoencoder Hyperparameter Selection"
-date = "2020-08"
+title = "How Topology Can Help Inform Autoencoder Hyperparameter Selection"
+date = "2020-08-01"
 description = "A look at one way that continuity can constrain."
 tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
+    "topology",
+    "autoencoder",
 ]
 categories = [
-    "themes",
-    "syntax",
+    "math",
+    "deep learning",
 ]
-series = ["Themes Guide"]
+series = ["Abstract Deep Learning"]
 aliases = ["migrate-from-jekyl"]
 feature_image = "/images/pietro-jeng-n6B49lTx7NM-unsplash.jpg"
 +++
