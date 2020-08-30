@@ -9,15 +9,21 @@ paginate = 3
 theme = "casper3"
 title = "Hugo Themes"
 [[menu.main]]
+identifier = "Math"
+name = "Math"
+url = ""
+weight = nil
+[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
 weight = 10
 [params]
 description = "Processing Stochasticities"
+facebook = ""
 github = "https://github.com/joshuapurtell"
 logo = "/images/test_logo.png"
-mainSections = ["post"]
+mainSections = ["Math", "post"]
 twitter = "https://twitter.com"
 [privacy.instagram]
 disabled = false
