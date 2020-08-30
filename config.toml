@@ -11,7 +11,7 @@ title = "Hugo Themes"
 [[menu.main]]
 identifier = "Math"
 name = "Math"
-url = ""
+url = "\"/math/\""
 weight = 10
 [[menu.main]]
 identifier = "about"
