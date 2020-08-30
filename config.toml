@@ -12,7 +12,7 @@ title = "Hugo Themes"
 identifier = "Math"
 name = "Math"
 url = ""
-weight = nil
+weight = 10
 [[menu.main]]
 identifier = "about"
 name = "About"
