@@ -1,4 +1,4 @@
 +++
-author = "Anonymous"
+author = "anonymous"
 +++
 

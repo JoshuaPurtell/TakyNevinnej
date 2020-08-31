@@ -7,24 +7,54 @@ footnoteReturnLinkContents = "^"
 languageCode = "en"
 paginate = 3
 theme = "casper3"
-title = "Hugo Themes"
+title = "Home"
 [[menu.main]]
 identifier = "Math"
 name = "Math"
-url = ""
-weight = nil
+url = "/math/"
+weight = 10
+[[menu.main]]
+identifier = "QF"
+name = "QF"
+url = "/QF/"
+weight = 10
+[[menu.main]]
+identifier = "Econ"
+name = "Econ"
+url = "/econ/"
+weight = 10
+[[menu.main]]
+identifier = "Data Science"
+name = "Data Science"
+url = "/Data-Science/"
+weight = 10
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
+weight = 10
+[[menu.main]]
+identifier = "Projects"
+name = "Projects"
+url = "/Projects/"
+weight = 10
+[[menu.main]]
+identifier = "Articles"
+name = "Articles"
+url = "/Articles/"
+weight = 10
+[[menu.main]]
+identifier = "Books"
+name = "Books"
+url = "/books/"
 weight = 10
 [params]
 description = "Processing Stochasticities"
 facebook = ""
 github = "https://github.com/joshuapurtell"
 logo = "/images/test_logo.png"
-mainSections = ["Math", "post"]
-twitter = "https://twitter.com"
+mainSections = ["math", "post"]
+twitter = "https://twitter.com/quantumwitty"
 [privacy.instagram]
 disabled = false
 simple = true

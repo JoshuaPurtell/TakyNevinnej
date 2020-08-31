@@ -6,6 +6,7 @@ description = "A look at one way that continuity can constrain."
 tags = [
     "topology",
     "autoencoder",
+    "group theory",
 ]
 categories = [
     "math",
