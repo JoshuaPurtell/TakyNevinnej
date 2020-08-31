@@ -11,6 +11,7 @@ title = "Home"
 [[menu.main]]
 identifier = "Math"
 name = "Math"
+<<<<<<< HEAD
 url = "/math/"
 weight = 10
 [[menu.main]]
@@ -27,6 +28,9 @@ weight = 10
 identifier = "Data Science"
 name = "Data Science"
 url = "/Data-Science/"
+=======
+url = "\"/math/\""
+>>>>>>> 36f4fac6eb540fefb3444cdba5dc90c3a347a24b
 weight = 10
 [[menu.main]]
 identifier = "about"
