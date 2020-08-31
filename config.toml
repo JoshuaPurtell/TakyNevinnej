@@ -28,9 +28,6 @@ weight = 10
 identifier = "Data Science"
 name = "Data Science"
 url = "/Data-Science/"
-=======
-url = "\"/math/\""
->>>>>>> 36f4fac6eb540fefb3444cdba5dc90c3a347a24b
 weight = 10
 [[menu.main]]
 identifier = "about"
