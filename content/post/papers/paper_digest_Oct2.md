@@ -21,7 +21,7 @@ It's time for the weekly paper roundup! My hope is for this segment to roughly r
 
 [On Spectral Clustering: Analysis and an Algorithm](https://papers.nips.cc/paper/2092-on-spectral-clustering-analysis-and-an-algorithm.pdf)
 
-The main conceit of this paper is to cast data $S$ into a normalized affinity space (where affinity decays according to some hyperparameter $\sigma^2$ such that $A_{ij}=e^{\frac{-\left\lVert s_i-s_j \right\rVert^2}{2\sigma^2}}$). One does this by constructing $X=[x_1,...,x_k]$ where $x_i$ is the $i^{th}$ eigenvector of $L=D^{-1/2} A D^{-1/2}$, normalizing row norm to 1, and clustering in the ambient space $Y$.
+The main conceit of this paper is to cast data $S$ into a normalized affinity space (where affinity decays according to some hyperparameter $\sigma^2$ such that $A_{ij}=e^{\frac{-\left\lVert s_i-s_j \right\rVert^2}{2\sigma^2}}$). One does this by constructing $X=[x_1,...,x_k]$ where $x_i$ is the $i^{th}$ eigenvector of $L=D^{-\frac{1}{2}} A D^{-\frac{1}{2}}$, normalizing row norm to 1, and clustering in the ambient space $Y$.
 
 In terms of performance, the algorithm seems to perform well enough for the first trivial non-convex clustering that I tried, concentric circles (this isn't very original — Ng et al use it in the paper).
 
