@@ -69,6 +69,10 @@ On the the theory and methods side of things, Prop. 1 gives a somewhat trivial r
 Overall ratings: Theory-2/5,Results-3/5,Methods-4/5
 
 
-[A Polynomial Time Algorithm for Rayleigh Ratio on Discrete Variables](https://pubsonline.informs.org/doi/pdf/10.1287/opre.1120.1126)
+[Calibrating Local Volatility Models with Stochastic Drift and Diffusion](https://arxiv.org/pdf/2009.14764.pdf)
+
+[Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)
+
+
 
 
