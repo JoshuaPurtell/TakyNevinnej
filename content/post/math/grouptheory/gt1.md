@@ -16,6 +16,7 @@ feature_image = ""
 +++
 
 D&F
+{{ template "_internal/disqus.html" . }}
 
 
 

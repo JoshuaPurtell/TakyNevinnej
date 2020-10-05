@@ -76,3 +76,7 @@ disableInlineCSS = true
 category = "categories"
 series = "series"
 tag = "tags"
+disqusShortname = "stochasticprocesses"
+[markup.goldmark.renderer]
+unsafe= true
+
