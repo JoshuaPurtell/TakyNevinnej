@@ -1,7 +1,7 @@
 ---
-title: 'Our Difference'
-button: 'About us'
+title: 'Data Science'
+button: 'Data Science'
 weight: 2
 ---
 
-Loremm ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. ipsum dolor sit amet, et essent mediocritatem quo,
+UNDER CONSTRUCTION
