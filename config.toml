@@ -79,4 +79,4 @@ tag = "tags"
 disqusShortname = "stochasticprocesses"
 [markup.goldmark.renderer]
 unsafe= true
-
+katex= true
