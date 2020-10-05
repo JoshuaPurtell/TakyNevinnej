@@ -48,7 +48,7 @@ $$\min_{\sigma^2} \max_i(\ell) \text{ s. t. }\ell_i = k_{Ch}(C_i)$$ where $k_{Ch
 
 Of course, finding the Cheegar constant is an NP-hard problem (classically), so this doesn't exactly make for the fastest-converging approach. Alternatively, Ng suggests that simply bounding the mixing time from above ought to equivalently induce the relaxed condition; such a bound can be applied via an upper bound on the second eigenvalue of the transition matrix corresponding to $A$, $M$ ($M_{ij}=\frac{2\sigma^2}{A_{ij}}, \forall i \neq j; M_{ii}=0$). That is, by solving:
 
-$$\min_{\sigma^2} \max_i(\ell) \text{ s. t. } \ell_i = \lambda^{M^i}_2, M^i \text{ is the transition matrix for cluster }i$$ 
+$$\min\_{\sigma^2} \max_i(\ell) \text{ s. t. } \ell\_i = \lambda^{M^i}\_2, M^i \text{ is the transition matrix for cluster }i$$ 
 
 I did so, and the results are ... mixed. Here are some plots of the losses found at $\sigma^2=5*10^x$ for different values of $x$ and $|S|=50,500$.
 
