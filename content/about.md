@@ -11,6 +11,8 @@ Hi! I'm an undergraduate at Yale University studying Mathematics and Economics.
 
 In case you'd like to learn a bit about me, feel free to look [here](/hidden/about_hidden/). 
 
+In case you're interested in the code underlying the site, feel free to check out the source code for the [main site](http://localhost:1313/articles/) and the [article page](http://localhost:1313/articles/).
+
 If you'd like to get in contact to ideate or collaborate, please do! Contact me at joshua.mv.purtell@gmail.com 
 
 UNDER CONSTRUCTION

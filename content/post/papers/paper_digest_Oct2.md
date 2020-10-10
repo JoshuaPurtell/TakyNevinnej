@@ -1,6 +1,6 @@
 +++
 author = "Anonymous"
-title = "Paper Roundup Week of October 2"
+title = "Paper Roundup Week of October 9"
 date = "2020-08-01"
 description = "Paper Roundup"
 tags = [
