@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processing Stochasticities</title>
+    <link>/</link>
+    <description>Recent content on Processing Stochasticities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi! I&amp;rsquo;m an undergraduate at Yale University studying Mathematics and Economics.
+In case you&amp;rsquo;d like to learn a bit about me, feel free to look here.
+In case you&amp;rsquo;re interested in the code underlying the site, feel free to check out the source code for the main site and the article page.
+If you&amp;rsquo;d like to get in contact to ideate or collaborate, please do! Contact me at joshua.mv.purtell@gmail.com
+UNDER CONSTRUCTION</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/hidden/about_hidden/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/hidden/about_hidden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/hidden/rxiv/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/hidden/rxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Articles</title>
+      <link>/articles/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/articles/</guid>
+      <description>source</description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of October 9</title>
+      <link>/post/papers/paper_digest_oct2/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_oct2/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+On Spectral Clustering: Analysis and an Algorithm</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>UNDER CONTRUCTION</description>
+    </item>
+    
+  </channel>
+</rss>

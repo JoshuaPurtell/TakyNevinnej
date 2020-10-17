@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spectral Graph Theory on Processing Stochasticities</title>
+    <link>/tags/spectral-graph-theory/</link>
+    <description>Recent content in Spectral Graph Theory on Processing Stochasticities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/spectral-graph-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper Roundup Week of October 9</title>
+      <link>/post/papers/paper_digest_oct2/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_oct2/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+On Spectral Clustering: Analysis and an Algorithm</description>
+    </item>
+    
+  </channel>
+</rss>

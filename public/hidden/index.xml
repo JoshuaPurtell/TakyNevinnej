@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hiddens on Processing Stochasticities</title>
+    <link>/hidden/</link>
+    <description>Recent content in Hiddens on Processing Stochasticities</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/hidden/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/hidden/about_hidden/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/hidden/about_hidden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/hidden/rxiv/</link>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/hidden/rxiv/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
