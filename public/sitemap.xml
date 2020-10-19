@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/hidden/collaboration_guidelines_hidden/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url>
@@ -48,7 +53,32 @@
   </url>
   
   <url>
-    <loc>/post/papers/paper_digest_oct2/</loc>
+    <loc>/post/papers/paper_digest_nov13/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/paper_digest_nov20/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/paper_digest_nov6/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/paper_digest_oct16/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/paper_digest_oct23/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/paper_digest_oct30/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,6 +89,11 @@
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/papers/sampler/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   

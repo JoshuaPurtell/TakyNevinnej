@@ -12,13 +12,73 @@
     
     
     <item>
-      <title>Paper Roundup Week of October 9</title>
-      <link>/post/papers/paper_digest_oct2/</link>
+      <title>Paper Roundup Week of November 13</title>
+      <link>/post/papers/paper_digest_nov13/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/papers/paper_digest_oct2/</guid>
+      <guid>/post/papers/paper_digest_nov13/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+   </description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of November 20</title>
+      <link>/post/papers/paper_digest_nov20/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_nov20/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+   </description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of November 6</title>
+      <link>/post/papers/paper_digest_nov6/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_nov6/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+   </description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of October 16</title>
+      <link>/post/papers/paper_digest_oct16/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_oct16/</guid>
       <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
 On Spectral Clustering: Analysis and an Algorithm</description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of October 23</title>
+      <link>/post/papers/paper_digest_oct23/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_oct23/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+   </description>
+    </item>
+    
+    <item>
+      <title>Paper Roundup Week of October 30</title>
+      <link>/post/papers/paper_digest_oct30/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/paper_digest_oct30/</guid>
+      <description>It&amp;rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&amp;rsquo;s jump in.
+   </description>
+    </item>
+    
+    <item>
+      <title>Sampler</title>
+      <link>/post/papers/sampler/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/papers/sampler/</guid>
+      <description>Highlights Measures and Sigma Fields pp18-22: A probability space is represented by the tuple $(\mathcal{X},\mathcal{A},\mu)$, where $\mathcal{X}$ represents a given set, $\mathcal{A}$ represents a Sigma Field of subsets of that set, and $\mu$ is a measure on $\mathcal{A}$.
+The generating class argument generally takes the form of: $X \in \text{CAT}$, $Y \subset X \Rightarrow \text{CAT}(Y) \subset \text{CAT}(X)$, where $\text{CAT}$ is a category and $\text{CAT}()$ is a closure operator. Pollard uses the generating class argument in an instructive proof sketch of the proposition that $\mathcal{B}(\mathbb{R}) = \sigma(\mathcal{E})$, where $\mathcal{B}(\mathbb{R})$ is the Borel Sigma Field and $\mathcal{E}:={ (-\infty,t] \subset \mathbb{R}, \forall t \in \mathbb{R}}$ Generating Borel Set Proof.</description>
     </item>
     
   </channel>

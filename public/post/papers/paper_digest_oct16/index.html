@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+          }
+        });
+    </script>
+    <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    
+    <title>Paper Roundup Week of October 16 · Processing Stochasticities</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+
+</head>
+<body class=" post-template ">
+    
+    <div class="site-wrapper">
+
+<header class="site-header"><div class="outer site-nav-main">
+    <div class="inner"><nav class="site-nav">
+    <div class="site-nav-left">
+        
+            <a class="site-nav-logo" href="/">Processing Stochasticities</a>
+        
+        
+        <div class="site-nav-content">
+            <ul class="nav" role="menu">
+                
+                <li class="nav-home" role="menuitem"><a href="/about/">About</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/articles/">Articles</a></li>
+                
+                <li class="nav-home" role="menuitem"><a href="/projects/">Projects</a></li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+</div>
+</div></header>
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post  no-image ">
+
+            <header class="post-full-header">
+
+                
+                    
+                    <section class="post-full-tags">
+                        <a href="/tags/spectral-graph-theory">Spectral Graph Theory</a>
+                    </section>
+                
+
+                <h1 class="post-full-title">Paper Roundup Week of October 16</h1>
+
+                
+
+                <div class="post-full-byline">
+                    <section class="post-full-byline-content">
+
+                        <ul class="author-list">
+    <li class="author-list-item">
+        <div class="author-card">
+            <div class="author-profile-image"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg></div>
+            <div class="author-info">
+                <div class="author-info">
+                    <h2>Anonymous</h2>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="author-avatar author-profile-image"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg></a>
+    </li>
+</ul>
+
+                        <section class="post-full-byline-meta">
+                            
+                                <h4 class="author-name">Anonymous</h4>
+                            
+                            <div class="byline-meta-content">
+                                <time class="byline-meta-date" datetime="2020-128-08">1 August 2020</time>
+                                <span class="byline-reading-time"><span class="bull">&bull;</span> 6 min read</span>
+                            </div>
+                        </section>
+
+                    </section>
+
+
+                </div>
+            </header>
+
+            
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>It&rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on <a href="https://obsidian.md/">Obsidian</a>. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&rsquo;s jump in.</p>
+<p><a href="https://papers.nips.cc/paper/2092-on-spectral-clustering-analysis-and-an-algorithm.pdf">On Spectral Clustering: Analysis and an Algorithm</a></p>
+<p>The main conceit of this paper is to cast data $S$ into a normalized affinity space (where affinity decays according to some hyperparameter $\sigma^2$ such that $A_{ij}=e^{\frac{-\left\lVert s_i-s_j \right\rVert^2}{2\sigma^2}}$). One does this by constructing $X=[x_1,&hellip;,x_k]$ where $x_i$ is the $i^{th}$ eigenvector of $L=D^{-\frac{1}{2}} A D^{-\frac{1}{2}}$, normalizing row norm to 1, and clustering in the ambient space $Y$.</p>
+<p>In terms of performance, the algorithm seems to perform well enough for the first trivial non-convex clustering that I tried, concentric circles (this isn&rsquo;t very original — Ng et al use it in the paper).</p>
+<p>Here is result I get using a naive initialization of knn (code <a href="https://github.com/JoshuaPurtell/code_vignettes/blob/master/10_2_2020/spectral_clustering.jl">here</a>):</p>
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQbBri54KfQ5bEeekq-CJY40nMQOzs9QInC46tdUADzlDa10rgfQD-sw39OKBxRzNBfCblA6YQpvNDT/embed?start=false&loop=false&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+<p>A few comments on the above: firstly, the only reason why there is a natural (2D) representation for $X,Y$ is that I chose $k=2$, as $X,Y$ are $|S| \times k$ arrays and the rowwise correspondence means that each $s \in S$ corresponds with a $k-vector$ in $X,Y$ space. Furthermore, while the transformation $A \to L$ appears to draw the clusters nearer together, it doesn&rsquo;t appear to impact the eigenvector space ($X$) much at all. Indeed, there were some runs where the populations in $A$ did not overlap, did so in $L$, and yet were clearly separated in $X,Y$. My hunch is that this would be really easy to prove using either Matrix Perturbation Theory or Spectral Graph Theory, but since I&rsquo;ve yet to establish a firm foundation in either (although I&rsquo;ve begun on both at the behest of this paper), this is yet to be seen. [If this is obvious to you, please contact me and I will both recognize your contribution here (if you&rsquo;d like), and let you recommend one of the successive week&rsquo;s papers! Just find my email in the contact page]. Anyways, the next note is that it doesn&rsquo;t appear that the normalization step from $X \to Y$ really did much. I coded the step as</p>
+<pre><code>Y=zeros(length(points),k)
+
+for j in 1:k
+    Y[:,j]= Y[:,j] + (X[:,j] ./ sqrt(sum(X[:,j] .^ 2)))
+end
+</code></pre><p>which appears to be correct; given the circumstances, though, it&rsquo;s entirely possible that I&rsquo;ve made a really embarrassing and obvious error. Hopefully, it&rsquo;s an artifact of the problem set up, or the eigensolver used? The greatest piece of evidence to support this hope is the fact that the data in $X$ is indeed distributed as one would expect a row-normalized sample would be, with the seeming variance difference between clusters in the horizontal direction rationalizable as being an artifact of the large natural separation between clusters in the vertical direction.</p>
+<p>Speaking of said artificial variance discrepancy, it has caused non-trivial problems. If you refer to the <a href="https://github.com/JoshuaPurtell/code_vignettes/blob/master/10_2_2020/spectral_clustering.jl">code</a>, it&rsquo;s clear that I &ldquo;cheat&rdquo; by restarting the final knn step for any convergence which assigns clusters that vary greatly in size. The motivation being that the conditional problem of the random seeding having chosen one seed from each natural population given that the identified clusters are close in size is quite high. Using any of <a href="https://juliastats.org/Clustering.jl/stable/index.html">Clustering.jl&rsquo;s</a> out of the box seeding algorithm alternatives was not fruitful, both in the case of kmeans and kmediods (somehow, the latter was even more pathological than the former). My sense is that these seeding algorithms are failing mainly because of the variance difference between the clusters in $X,Y$ space; in order to repair this, I attempted to reduce the natural separation (and thereby the artificial variance discrepancy, per the above observation) by varying $\sigma^2$ from {$5e7,5e6,&hellip;,5e{-7}$}. It did not have the intended effect, which seems to be a real problem for this implementation of the algorithm. A reliable way to circumvent this would be to use a Gaussian Mixture Model to cluster the populations in $Y$ space, which so obviously sidesteps the issue of random seeding that implementing it here didn&rsquo;t seem particularly worthwhile.</p>
+<p>For those wishing to implement Ng&rsquo;s algorithm with knn, the above implementation leaves much to be desired. Because Ng&rsquo;s paper features example populations which are much more tightly clustered in $Y$ space, I suspect that either this problem is completely explainable by a (very) possible error in the row-normalization step, or that it could be circumvented by using an automatic $\sigma^2$ search method.</p>
+<p>Which provides a natural segue back to the paper; Ng et al recommend selecting a $\sigma^2$ value by minimizing the induced cluster &ldquo;tightness.&rdquo; They don&rsquo;t offer a specific approach to doing so, but my guess is that such an algorithm would solve a relaxation of the following optimization problem:</p>
+<p>$$\min_{\sigma^2} \max_i(\ell) \text{ s. t. }\ell_i = k_{Ch}(C_i)$$ where $k_{Ch}(C_i)$ is the Cheegar constant of cluster $C_i$.</p>
+<p>Of course, finding the Cheegar constant is an NP-hard problem (classically), so this doesn&rsquo;t exactly make for the fastest-converging approach. Alternatively, Ng suggests that simply bounding the mixing time from above ought to equivalently induce the relaxed condition; such a bound can be applied via an upper bound on the second eigenvalue of the transition matrix corresponding to $A$, $M$ ($M_{ij}=\frac{2\sigma^2}{A_{ij}}, \forall i \neq j; M_{ii}=0$). That is, by solving:</p>
+<p>$$\min_{\sigma^2} \max_i(\ell) \text{ s. t. } \ell_i = \lambda^{M^i}_2, M^i \text{ is the transition matrix for cluster }i$$</p>
+<p>I did so, and the results are &hellip; mixed. Here are some plots of the losses found at $\sigma^2=5*10^x$ for different values of $x$ and $|S|=50,500$.</p>
+<figure class="video_container">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSMSj36VBn2uiPXMKXcfgVMGpXsz79eeOaehbF8i_vQbyt8Z87FeLIpa4p2TLKYxIt7ROYIrLzldniU/embed?start=false&loop=false&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</figure>
+<p>I imagine that the mode collapse owes much both to the low number of natural clusters and to the seeding issue mentioned above (crucially, while the conditional probability of getting a &ldquo;good&rdquo; seeding with the restart mechanism used is high, it&rsquo;s not particularly high). If applied to an example on a richer underlying domain space, with more numerous and less separated clusters, using gmm in lieu of knn, I imagine the loss image may look a bit more interesting. But, this seems to be a natural place to conclude my empirical treatment of this paper.</p>
+<p>On the the theory and methods side of things, Prop. 1 gives a somewhat trivial result on the &ldquo;ideal&rdquo; case, where clusters are infinitely mutually distant, and Theorem 2 uses some assumptions on the clusters (how &ldquo;tight&rdquo; they are relative to their mutual distance) to get a result that bounds how &ldquo;loose&rdquo; clusters in $Y$ space can be in the best case. This is powerful but not particularly groundbreaking; it&rsquo;s clear that this paper serves to formalize a folk belief on the efficacy of a general class of spectral methods, and elaborate a particularly useful member of that class. What may be a bit more noteworthy is the specific approach Ng et al take; they elaborate the result for a simple, perfect case and then find the assumptions necessary to extend the reasoning to a much larger subset of the case space. Of course, developing intuition with a trivial example is not a technique uniquely employed by Ng et al; what is remarkable is the elegance which accompanies the employ. I recommend reading this (short) paper mostly on this basis.</p>
+<p>Overall ratings: Theory-2/5,Results-3/5,Methods-4/5</p>
+<p><a href="https://arxiv.org/pdf/2009.14764.pdf">Calibrating Local Volatility Models with Stochastic Drift and Diffusion</a></p>
+<p><a href="https://arxiv.org/pdf/2009.01791.pdf">Action and Perception as Divergence Minimization</a></p>
+<figure>
+<iframe seamless src="/html_elements/paper_digest_Oct16.html" style="width:700px; height:200px; border: 2px solid black"></iframe>
+</figure>
+
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+    
+    <article class="read-next-card">
+        <header class="read-next-card-header">
+            <h3><span>More in</span> <a href="/tags/spectral-graph-theory">Spectral Graph Theory</a></h3>
+        </header>
+        <div class="read-next-card-content">
+            <ul>
+                
+            </ul>
+        </div>
+    </article>
+<article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/post/papers/paper_digest_oct23/">
+    
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Spectral Graph Theory</div>
+                    
+
+                    <h2 class="post-card-title">Paper Roundup Week of October 23</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>It&rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&rsquo;s jump in.
+   </p>
+                </section>
+    
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">Anonymous</div>
+                            <a href="https://test.com" class="static-avatar author-profile-image"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg></a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>Anonymous</span>
+                        <span class="post-card-byline-date"><time datetime="2020-128-08">1 August 2020</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+    
+        </div>
+
+</article>
+    
+
+            <article class="post-card post
+ no-image
+ ">
+
+        
+    
+        <div class="post-card-content">
+    
+            <a class="post-card-content-link" href="/post/papers/paper_digest_nov6/">
+    
+                <header class="post-card-header">
+                    
+                        
+                        <div class="post-card-primary-tag">Spectral Graph Theory</div>
+                    
+
+                    <h2 class="post-card-title">Paper Roundup Week of November 6</h2>
+                </header>
+    
+                <section class="post-card-excerpt">
+                    <p>It&rsquo;s time for the weekly paper roundup! My hope is for this segment to roughly reduplicate the write-ups I build on Obsidian. Generally speaking, the inclusion of a paper on the roundup is not an endorsement, and the amount of text I devote to a given entry is only a noisy indicator of the value I ascribe to it. With that being said, let&rsquo;s jump in.
+   </p>
+                </section>
+    
+            </a>
+
+            <footer class="post-card-meta">
+                    <ul class="author-list">
+                        <li class="author-list-item">
+                            <div class="author-name-tooltip">Anonymous</div>
+                            <a href="https://test.com" class="static-avatar author-profile-image"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg></a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content">
+                        <span>Anonymous</span>
+                        <span class="post-card-byline-date"><time datetime="2020-128-08">1 August 2020</time>
+                            <span class="bull">&bull;</span> 1 min read</span>
+                    </div>
+                </footer>
+    
+        </div>
+
+</article>
+    
+        </div>
+    </div>
+</aside>
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="/">Processing Stochasticities</a> &copy; 2020</section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    
+                    
+                    
+                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;"></a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
