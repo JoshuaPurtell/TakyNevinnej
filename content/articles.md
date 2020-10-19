@@ -17,7 +17,7 @@ feature_image = ""
   </div>
 </form>
 
-<iframe seamless src="/obsidian_port/main.html" style="width:700px; height:800px; border: 2px solid black"></iframe>
+<iframe seamless src="/obsidian_port/main_graph.html" style="width:700px; height:800px; border: 2px solid black"></iframe>
 
 
 
