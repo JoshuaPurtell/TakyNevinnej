@@ -1,3 +1,9 @@
++++
+ author = "Anonymous"
+ title = "A Modicum Of Measure Theory"
+ date = 2020-10-20
++++
+
 ### Highlights
 
 #### Measures and Sigma Fields pp18-22:
@@ -14,3 +20,5 @@ A [measurable function](https://www.processingstochasticities.com/obsidian_port/
 
 
 ### Salient Connections
+ 
+ <iframe seamless src="/obsidian_port/nodes/A_Modicum_Of_Measure_Theory.html" style="width:700px; height:400px; border: 2px solid black"></iframe>
