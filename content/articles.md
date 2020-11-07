@@ -19,6 +19,6 @@ feature_image = ""
 
 <iframe seamless src="/obsidian_port/main_graph.html" style="width:700px; height:800px; border: 2px solid black"></iframe>
 
-
-
 [source](https://github.com/JoshuaPurtell/webpage/)
+
+Want to see what's [down the pi{k,p}e?](/hidden/down_the_pikpe/)

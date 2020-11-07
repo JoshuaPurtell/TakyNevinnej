@@ -73,9 +73,6 @@ Overall ratings: Theory-2/5,Results-3/5,Methods-4/5
 [Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)
 
 
-<figure>
-<iframe seamless src="/html_elements/paper_digest_Oct16.html" style="width:700px; height:200px; border: 2px solid black"></iframe>
-</figure>
             
 
 
