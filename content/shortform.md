@@ -1,5 +1,5 @@
 +++
-title = "Articles"
+title = "Shortform"
 description = "Graphical Landing Page"
 date = "2020-08-28"
 aliases = ["articles"]

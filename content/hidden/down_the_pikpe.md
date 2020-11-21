@@ -11,13 +11,16 @@ Interested to see what I plan on reading next? Here are some hierarchal represen
 
 I intend to getting around to reading and commenting on each of these in due course, whereupon they will live in the more expressive space of [connectivity representation](/articles/).
 
-# Books 
+# Books, Academic
 <iframe seamless src="/wordbubble/books2read.html" style="width:700px; height:900px; border: 2px solid black"></iframe>
 
 # Papers
 
 <iframe seamless src="/wordbubble/papers2read.html" style="width:700px; height:900px; border: 2px solid black"></iframe>
 
+# Books, Non-Academic
+
+[why is this section here?]
 <br/><br/>
 
 Have a recommendation? Feel free to email me @ josh.mv.purtell@gmail.com
