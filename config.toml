@@ -7,7 +7,7 @@ footnoteReturnLinkContents = "^"
 languageCode = "en"
 paginate = 3
 theme = "casper3"
-title = "Processing Stochasticities"
+title = "Taky Nevinnej"
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -28,11 +28,11 @@ identifier = "Longform"
 name = "Longform"
 url = "/Longform/"
 weight = 10
-description = "Processing Stochasticities"
+description = "Taky Nevinnej"
 facebook = ""
 github = "https://github.com/joshuapurtell"
 logo = "/images/test_logo.png"
-mainSections = ["math", "post"]
+mainSections = ["post"]
 twitter = "https://twitter.com/quantumwitty"
 [privacy.instagram]
 disabled = false
@@ -55,7 +55,6 @@ disableInlineCSS = true
 category = "categories"
 series = "series"
 tag = "tags"
-disqusShortname = "stochasticprocesses"
 [markup.goldmark.renderer]
 unsafe= true
 katex= true

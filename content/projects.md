@@ -7,23 +7,15 @@ author = "Anonymous"
 feature_image = ""
 +++
 
-## Current Closed Source Scientific Builds
+## The Weekly Schweik
 
-## Current Open Source Scientific Builds
+## Language Learning
 
-## Current Open Source Competition Builds
+## Reading
 
-## Past Projects
+## Body and Spirit
 
-[![joshuapurtell/basic-program - GitHub](https://gh-card.dev/repos/joshuapurtell/basic-program.svg)](https://github.com/joshuapurtell/basic-program)
-
-[![joshuapurtell/charm-flavor-jet-tagging - GitHub](https://gh-card.dev/repos/joshuapurtell/charm-flavor-jet-tagging.svg)](https://github.com/joshuapurtell/charm-flavor-jet-tagging)
-
-[![joshuapurtell/pricing-exotic-barrier-options-with-B.M - GitHub](https://gh-card.dev/repos/joshuapurtell/pricing-exotic-barrier-options-with-B.M.svg)](https://github.com/joshuapurtell/pricing-exotic-barrier-options-with-B.M)
+## Media
 
 
-## FOSS
-
-[![joshuapurtell/obsidian2d3 - GitHub](https://gh-card.dev/repos/joshuapurtell/obsidian2d3.svg)](https://github.com/joshuapurtell/obsidian2d3)
-
-[![joshuapurtell/GaussianMixtures.jl - GitHub](https://gh-card.dev/repos/joshuapurtell/GaussianMixtures.jl.svg)](https://github.com/joshuapurtell/GaussianMixtures.jl)
+## Stack
