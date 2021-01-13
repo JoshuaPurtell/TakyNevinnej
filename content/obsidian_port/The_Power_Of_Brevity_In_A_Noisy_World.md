@@ -4,7 +4,7 @@
  date = 2021-01-13
 +++
 
-[Joe McCormack](https://www.processingstochasticities.com/obsidian_port/Joe_McCormack/)
+[Joe McCormack](https://kind-curie-8e7995.netlify.app/obsidian_port/Joe_McCormack/)
 - brief: clear and concise
 - your audience is likely already drowning in information. 
 - People pay attention to less information in order to cope with information glut.

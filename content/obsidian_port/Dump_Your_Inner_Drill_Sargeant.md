@@ -4,7 +4,7 @@
  date = 2021-01-13
 +++
 
-with [Laurie Santos](https://www.processingstochasticities.com/obsidian_port/Laurie_Santos/) and [Kristin Neff](https://www.processingstochasticities.com/obsidian_port/Kristin_Neff/)
+with [Laurie Santos](https://kind-curie-8e7995.netlify.app/obsidian_port/Laurie_Santos/) and [Kristin Neff](https://kind-curie-8e7995.netlify.app/obsidian_port/Kristin_Neff/)
 
 - self-compassion (kind/warm/supportive + mindfulness of suffering + )
 	- present and aware of painful emotions: mindfulness
