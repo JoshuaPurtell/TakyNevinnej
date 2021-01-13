@@ -1,6 +1,6 @@
 +++
 title = "Projects"
-description = "Graphical Landing Page"
+description = "Want to skip the graph? Look here"
 date = "2020-08-28"
 aliases = ["projects"]
 author = "Anonymous"
@@ -11,11 +11,14 @@ feature_image = ""
 
 ## Language Learning
 
+## Kaggle / Hackathons
+
 ## Reading
 
-## Body and Spirit
+## Body and Mind
 
 ## Media
 
-
 ## Stack
+
+## Meta 

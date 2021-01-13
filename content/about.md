@@ -19,11 +19,11 @@ In English:
 
 ```
 "I'm innocent, Sir! I'm innocent!"
-"So was Jesus Christ, and they nevertheless crucified him. 
+"Jesus Christ was also innocent, and they nevertheless crucified him. 
 Never has it anywhere or for anyone mattered that a given person was innocent."
 "But I'm no Jesus Christ! I'm actually innocent!"
 ```
-I foreground both [Good Soldier Schweik]() and [Stoicism]() in my mind's eye, when orienting action. To quote C. Jung, "The fool is the precursor to the savior," and Schweik models exactly the kind of humility and earnestness which the fool-as-student must embody as he continuously grows in preparation for [Campbell's]() unexpected challenge. Of course, this scene does not necessarily highlight Schweik's folly, but instead adopts an amalgam of pessimism and optimism characteristic of Stoicism: our lot in life is to accept circumstances both good and bad, and concern ourselves only with making the best of them. If I had to capture my life orientation, it would be to embody Schweikian Stoicism. And so [Taky Nevinnej]() was born.
+I foreground both [Good Soldier Schweik]() and [Stoicism]() in my mind's eye, when orienting action. To quote C. Jung, "The fool is the precursor to the savior," and Schweik models exactly the kind of humility and earnestness which the fool-as-student must embody as he continuously grows in preparation for [Campbell's]() unexpected challenge. Of course, this scene does not necessarily highlight Schweik's folly, but instead adopts an amalgam of pessimism and optimism characteristic of Stoicism: our lot in life is to accept circumstances both good and bad, and concern ourselves only with making the best of them. If I had to capture my life orientation, it would be to embody Schweikian Stoicism. And so [Taky Nevinnej](), Also Innocent, was born.
 
 The site is divided into [shortform](), where I host most of my Saturday writings and the like, and whose contents I intend to update consistently; and [longform](), where I keep longer treatments which are reserved only for those works which I feel merit the investment of my time and about whose production timeline I make no promises.
 
